@@ -1,6 +1,6 @@
 package com.arnegoyvaerts.api.dtos;
 
-public class ProfessorDto {
+public class UpdateProfessorDto {
 
     private String id;
     private String firstname;
@@ -18,17 +18,17 @@ public class ProfessorDto {
         return lastname;
     }
 
-    public ProfessorDto setId(String id) {
+    public UpdateProfessorDto setId(String id) {
         this.id = id;
         return this;
     }
 
-    public ProfessorDto setFirstname(String firstname) {
+    public UpdateProfessorDto setFirstname(String firstname) {
         this.firstname = firstname;
         return this;
     }
 
-    public ProfessorDto setLastname(String lastname) {
+    public UpdateProfessorDto setLastname(String lastname) {
         this.lastname = lastname;
         return this;
     }

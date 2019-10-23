@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce799c97-0f2b-4061-bfd8-02d71c8f6f9d" name="Default Changelist" comment="" />
+    <list default="true" id="ce799c97-0f2b-4061-bfd8-02d71c8f6f9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/dtos/CreateProfessorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/dtos/UpdateProfessorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/arnegoyvaerts/api/ProfessorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/arnegoyvaerts/domain/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/arnegoyvaerts/domain/ProfessorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/ProfessorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/ProfessorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/dtos/CourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/dtos/CourseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/dtos/ProfessorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/arnegoyvaerts/api/dtos/ProfessorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/arnegoyvaerts/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/arnegoyvaerts/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/arnegoyvaerts/domain/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/arnegoyvaerts/domain/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/arnegoyvaerts/service/ProfessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/arnegoyvaerts/service/ProfessorService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +31,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,9 +46,27 @@
     </option>
   </component>
   <component name="ProjectId" id="1SVjWQswdTcNS24Xu030xMV33hQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.arnegoyvaerts.api" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +80,59 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.ProfessorControllerTest.editProfessor">
+    <configuration name="ProfessorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arnegoyvaerts.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arnegoyvaerts.api" />
+      <option name="MAIN_CLASS_NAME" value="com.arnegoyvaerts.api.ProfessorControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfessorControllerTest.editProfessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arnegoyvaerts.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arnegoyvaerts.api" />
+      <option name="MAIN_CLASS_NAME" value="com.arnegoyvaerts.api.ProfessorControllerTest" />
+      <option name="METHOD_NAME" value="editProfessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arnegoyvaerts.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arnegoyvaerts.api.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProfessorControllerTest.editProfessor" />
+        <item itemvalue="JUnit.ProfessorControllerTest" />
+        <item itemvalue="Spring Boot.WebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -50,11 +144,26 @@
       <option name="presentableId" value="Default" />
       <updated>1571655688519</updated>
       <workItem from="1571655691804" duration="835000" />
-      <workItem from="1571656535067" duration="2514000" />
+      <workItem from="1571656535067" duration="11126000" />
+      <workItem from="1571718188211" duration="12062000" />
+      <workItem from="1571815469774" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

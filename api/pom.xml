@@ -11,5 +11,17 @@
 
     <artifactId>api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.arnegoyvaerts</groupId>
+            <artifactId>domain</artifactId>
+            <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.arnegoyvaerts</groupId>
+            <artifactId>service</artifactId>
+            <version>0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>

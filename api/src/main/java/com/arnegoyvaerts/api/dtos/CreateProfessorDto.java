@@ -1,14 +1,10 @@
 package com.arnegoyvaerts.api.dtos;
 
-public class ProfessorDto {
+public class CreateProfessorDto {
 
-    private String id;
     private String firstname;
     private String lastname;
 
-    public String getId() {
-        return id;
-    }
 
     public String getFirstname() {
         return firstname;
@@ -18,17 +14,12 @@ public class ProfessorDto {
         return lastname;
     }
 
-    public ProfessorDto setId(String id) {
-        this.id = id;
-        return this;
-    }
-
-    public ProfessorDto setFirstname(String firstname) {
+    public CreateProfessorDto setFirstname(String firstname) {
         this.firstname = firstname;
         return this;
     }
 
-    public ProfessorDto setLastname(String lastname) {
+    public CreateProfessorDto setLastname(String lastname) {
         this.lastname = lastname;
         return this;
     }
